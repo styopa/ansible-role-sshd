@@ -1,0 +1,7 @@
+---
+sshd_settings:
+  Port: 22
+  PermitRootLogin: without-password
+  PubkeyAuthentication: "yes"
+  PasswordAuthentication: "no"
+  UsePAM: "yes"
